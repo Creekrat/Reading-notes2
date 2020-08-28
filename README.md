@@ -4,7 +4,7 @@ These notes will be from any reading material in this course.
 I have outlined the table of contents as follows:
 
 **Table of Contents**
- - [Notes 1]()
+ - [class-01](class-01.md)
  - Notes 2
  - Notes 3
  - Notes 4
