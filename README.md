@@ -1,6 +1,6 @@
-# Code 201 Reading Notes#
+# Code 201 Reading Notes
 This page consists of the reading notes for 201.
-This notes will be from any reading material in this course.
+These notes will be from any reading material in this course.
 I have outlined the table of contents as follows:
 
 **Table of Contents**
