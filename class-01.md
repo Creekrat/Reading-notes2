@@ -57,4 +57,8 @@ There are many simularities between HTML4 and HTML5, but what has changed is pre
  - XHTML 1.0: In 1998, the language XML was published and it's purpose was to allow people to write new markup languages. HTML was the most widely used markup language around, it was decided that HTML 4 should be reformulated to follow the rules of XMl and it was renamed XHTML. People had to start following some new, more strict rules like every element needs a closing tag, attribute names have to be lowercase, all attributes required a value and all values were to be placed in double quotes, deprecated elements should no longer be used,and every element that was opened inside another element should be closed inside that same element.
  - HTML5: People do not have to close all tags and new elements and attributes are introduced. It is more of a laid back.
 
-Because there are different versions of HTML you have to start the page out with 
+Because there are different versions of HTML, each webpage should begin with a DOCTYPE declaration to tell a browser which version of HTML the page is using. You can also display comments in your HTML that doesn't show up on your web page so you can keep track of what you are doing. The characters you use are this: < !-- -- > 
+
+HTML can use ID attributes to uniquely identify one element from other elements on the page. HTML can also use class attributes to identify several elements as being different from the other elements on the page.
+
+Some elements will always appear to start on a new line in the browser window and those are known as block level elements. Also some elements will always appear to continue on the same line as neighboring elements and those are called inline elements. When you want to group text and elements into a block you use a < Div > tag and when you want to group text and elements in inline you use the < Span > tag.
