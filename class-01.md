@@ -23,4 +23,35 @@ HTML and CSS have improved over the years and have updated to HTML5 and CSS3. Th
 
 **Structure**
 
-Web pages use structure 
+Web pages use structure to help readers to understand what goes on in a web page.
+HTML uses elements to describe the structure of pages. Each element has an opening and closing tag. 
+These tags are used to structure the webpage piece by piece:
+ - head
+ - body
+ - header
+ - paragraph
+
+*almost like writing a structured essay*
+
+Tags are made by using the left and right angle brackets with a character in between. To close the tags you use the left and right angle brackets and a forward slash:
+ - < p > < /p  >
+Everything in between these tags is what you see in a web page.
+
+These tags are giving information to the computer.
+Now some tags have *attributes*. They provide additonal information about the contents of an element. The attributes are made up of parts like a name and a value that are seperated by an equals sign.
+
+here are the main tags for the structure of a page:
+ - Body: everything shown on the page goes inside of the body tags.
+ - Head: before the body element you create a head tag. This contains the information about the page and doesn't show up on the webpage itself. This usually contains the title tag.
+ - Title: The contents of the title element are either shown in the top of the browser or above where you type your URL of a page.
+
+So to learn HTML you need to know what tags to use, what they do, and where they go.
+
+
+**Extra Markup**
+
+So before there was HTML5 there were two other versions of HTML. HTML4 (released in 1997) and XHTML1.0 (released in 2000)
+There are many simularities between HTML4 and HTML5, but what has changed is presentational elements to control the appearence of a page. Developers are not recommended to use them anymore.
+
+ - HTML4: elements like center, font, and strike were achieved with this language , but have been since been taken out due to the new HTML5 language and these tags can now be achieved through CSS because they are used for the decoration of the page.
+ - XHTML 1.0: In 1998, the language XML was published and it's purpose was to allow people to write new markup languages. HTML was the most widely used markup language around, it was decided that HTML 4 should be reformulated to follow the rules of XMl and it was renamed XHTML. People had to start following some new, more strict rules 
