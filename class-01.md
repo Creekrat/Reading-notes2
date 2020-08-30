@@ -79,3 +79,25 @@ HTML5 has tags like header, footer, nav, article, aside, section, hgroup, figure
  - an < aside > tag has two purposes (this depends on whether or not it is inside of an < article > tag). When inside the < article > tag it should include information that is related to the article, but not necessarily to it's overall meaning. When outside of the < article > tag it acts as a container for content that is related to the entire page.
  - a < section > tag groups related content together, and every section would normally have it's own heading.
  - a < hgroup > tag groups together a set of one or more < h1 > through < h6 > tags so they are treated as one single heading.
+ - < figure > and < figcaption > tags are used for images on a page and the description of images on a page just in case the image isn't there. The description of the image is mostly used for if the image doesn't show up or  for the vision impaired so it can be read out to them.
+ - < div > tags are rarely needed in HTML5 but is still used to group together elements.
+
+Older browsers that don't understand HTML5 elements need to be told which elements are block-level elements. To make HTML5 elements to work in Internet Explorer or older versions of it then extra JavaScript is needed.
+
+**Process and Design**
+
+You need to understand who the target audience is, why they come to your site, what information they want to find or see and will they come back to your site. You need to use site maps to plan the structure of your website and use wireframes to organize the information for each page. Design is all about communication. Using visuals helps your visitors understand what you are trying to tell them. You can use size, color, and style to differentiate between pieces of information and you can use grouping and similarity to simplify the information you have.
+
+
+
+**JavaScript**
+
+ - A: *What is script and how do i use it?*
+ A script is a set of step by step instructions (*IN DEEP DETAIL!*) that a computer can follow to achieve a goal. Everytime the script runs it may only use a subset of all the instructions. When writing a script break the goal down into a series of tasks and then work out each step needed to complete that task.
+ - B: *How do computers fit in with the world around them?*
+ Computers create models of the world using data. These models use objects to represent physical things. Programmers can write code that is easy to understand and easy to follow such as; " when this happens run this." To make web pages interactive, you write code that uses the browser's model of the webpage. Objects can have: properties that tell you about that object; methods that perform tasks using the properties of that object; events that happen after they are triggered by an interaction on the computer.
+ - C: *How do I write a script for a webpage?*
+ You need to keep JavaScript code in it's own file. They are text files and they use the .js extention to tell the difference between your CSS and HTML files. In HTML  you would use the < script > tag to link the JavaScript file to your main page and it helps the browser to load the file. Also, if you look at the source code for your page you can see that the JavaScript will not have changed the HTML, because the script works with the model of the web that the browser created.
+
+JavaScript makes a webpage more interactive. It allows you to make webpages interactive by accessing and modifying content and the markup used in a webpage while it was used in the browser.
+
