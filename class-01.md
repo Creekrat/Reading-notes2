@@ -61,4 +61,21 @@ Because there are different versions of HTML, each webpage should begin with a D
 
 HTML can use ID attributes to uniquely identify one element from other elements on the page. HTML can also use class attributes to identify several elements as being different from the other elements on the page.
 
-Some elements will always appear to start on a new line in the browser window and those are known as block level elements. Also some elements will always appear to continue on the same line as neighboring elements and those are called inline elements. When you want to group text and elements into a block you use a < Div > tag and when you want to group text and elements in inline you use the < Span > tag.
+Some elements will always appear to start on a new line in the browser window and those are known as block level elements. Also some elements will always appear to continue on the same line as neighboring elements and those are called inline elements. When you want to group text and elements into a block you use a < Div > tag and when you want to group text and elements in inline you use the < Span > tag. < iframe > tags cut windows into your web page where other web pages can be displayed. The < meta > tag allows you to supply all kinds of information about your web page. Escape characters are used to include special characters in your page.
+
+**HTML5 Layout**
+
+Traditional layout:
+ - you can use < div > elements to group together related elements on the page (the elements that form a header, article, footer, or sidebar). People use class or id attributes to indicate the role of a < div > element in the structure of a page.
+
+New HTML5 layout:
+ - It introduces a new set of elements that allow you to divide up the parts of the page. The names of the elements indicate the kind of content you find in them. Easier to understand.
+
+HTML5 has tags like header, footer, nav, article, aside, section, hgroup, figures, figcaption, and sometimes div.
+
+ - < header > and < footer > tags are used for the main header or footer that appears at the top or the bottom of every page on the site. a < header > and < footer > can also be used for an individual < article > or < section > within the page.
+ - a < nav > tag is used to contain the major navigational blocks on the site.
+ - an < article > tag acts as a container for any section of a page that could stand alone and be syndicated.
+ - an < aside > tag has two purposes (this depends on whether or not it is inside of an < article > tag). When inside the < article > tag it should include information that is related to the article, but not necessarily to it's overall meaning. When outside of the < article > tag it acts as a container for content that is related to the entire page.
+ - a < section > tag groups related content together, and every section would normally have it's own heading.
+ - a < hgroup > tag groups together a set of one or more < h1 > through < h6 > tags so they are treated as one single heading.
