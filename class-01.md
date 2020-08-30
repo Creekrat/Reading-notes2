@@ -55,4 +55,6 @@ There are many simularities between HTML4 and HTML5, but what has changed is pre
 
  - HTML4: elements like center, font, and strike were achieved with this language , but have been since been taken out due to the new HTML5 language and these tags can now be achieved through CSS because they are used for the decoration of the page.
  - XHTML 1.0: In 1998, the language XML was published and it's purpose was to allow people to write new markup languages. HTML was the most widely used markup language around, it was decided that HTML 4 should be reformulated to follow the rules of XMl and it was renamed XHTML. People had to start following some new, more strict rules like every element needs a closing tag, attribute names have to be lowercase, all attributes required a value and all values were to be placed in double quotes, deprecated elements should no longer be used,and every element that was opened inside another element should be closed inside that same element.
- - HTML5: 
+ - HTML5: People do not have to close all tags and new elements and attributes are introduced. It is more of a laid back.
+
+Because there are different versions of HTML you have to start the page out with 
