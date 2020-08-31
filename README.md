@@ -6,16 +6,16 @@ I have outlined the table of contents as follows:
 **Table of Contents**
  - [class-01](class-01.md)
  - [class-02](class-02.md)
- - Notes 3
- - Notes 4
- - Notes 5
- - Notes 6
- - Notes 7
- - Notes 8
- - Notes 9
- - Notes 10
- - Notes 11
- - Notes 12
- - Notes 13
- - Notes 14
- - Notes 15
+ - [class-03]
+ - [class-04]
+ - [class-05]
+ - [class-06]
+ - [class-07]
+ - [class-08]
+ - [class-09]
+ - [class-10]
+ - [class-11]
+ - [class-12]
+ - [class-13]
+ - [class-14]
+ - [class-15]
