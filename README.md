@@ -5,7 +5,7 @@ I have outlined the table of contents as follows:
 
 **Table of Contents**
  - [class-01](class-01.md)
- - Notes 2
+ - [class-02](class-02.md)
  - Notes 3
  - Notes 4
  - Notes 5
