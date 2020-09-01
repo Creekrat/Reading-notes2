@@ -11,15 +11,18 @@
 
 
         }
-        p {
+        #p {
             font-size: 50px;
+          
 
         }
      </style>
  </head>
  <body>
      <!-- Displayed Content-->
-     <h1>Learning HTML, CSS, and JS</h1>
+     <main>
+        <h1>Class 1 lab</h1>
+     </main>
      <h2>Sub heading level 2</h2>
      <h3>Sub heading level 3</h3>
      <!--Inside of any tag there can be an Attribute.-->
@@ -27,7 +30,15 @@
      <h5>Sub heading level 5</h5>
      <h6>Last Sub heading level 6</h6>
 
-     <p>Here is our text, usually long form. Paragraph Tag</p>
+     <p style="color: red;background-color:chartreuse;">
+         What is your name?<br></p>
+         <p style="font-size: 50px;background-color:coral;">
+         What is your favorite animal?<br></p>
+         <p style="font-size: 20px; color:darkblue;">
+         What is your favorite color?<br></p>
+         <p style="background-color:gold;">
+         What is your favorite season?
+     </p>
 
      <ul>
          <li>Unordered lists. Dots or ticks for lists</li>
@@ -50,11 +61,18 @@
          // getting input from a user
          // prompt pops up to the user. 
          user= prompt('what is your name?');
+         animal= prompt('what is your favorite animal?');
+         color= prompt('what is your favorite color?');
+         season= prompt('what is your favorite season?');
          // plus sign is to concatinate
-         console.log('here is some javascript');
-         console.log('these logs are in order');
-         console.log("detail and order does matter"+ user);
-         alert('welcome'+ user);
+         console.log('What is in a name?');
+         console.log('What is your spirit animal?');
+         console.log("Colors of the wind....");
+         console.log("Seasons of change..")
+         alert('Welcome, ' + user);
+         alert(animal + '? Cool!');
+         alert(color + '? Awesome Sauce!');
+         alert(season + '? Sweet!')
          //console.log shows up only in the console
 
      </script>
