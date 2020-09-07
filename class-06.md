@@ -23,3 +23,5 @@ If a DOM query can return more than one node then is will return a NodeList.
 
 From and element node, you can get and update the content using the properties like textContent and innerHTML or using the DOM manipulation techniques.
 An element node can contain multiple text nodes and child elements that are siblings. The DOM implementation is inconsitent in older browsers. (pretty much why JQuery is used) and some browsers offer tools to view the DOM tree.
+
+[<===Back](README.md)
