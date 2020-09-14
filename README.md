@@ -14,7 +14,7 @@ I have outlined the table of contents as follows:
  - [class-08](class-08.md)
  - [class-09](class-09.md)
  - [class-10](class-10.md)
- - [class-11]
+ - [class-11](class-11.md)
  - [class-12]
  - [class-13]
  - [class-14]
