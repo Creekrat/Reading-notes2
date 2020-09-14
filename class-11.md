@@ -14,5 +14,9 @@ You can use HTML5 elements for embedding rich media in documents. These elements
  - < audio >
 
 You can also video and audio players programmatically by using the HTMLMediaElement API. You can also use different elements to pause, play, and stop video or audio. The HTMLMediaElement API makes a lot of functionality available for creating simple video and audio players.
- 
+
+# Flash
+
+Flash has been a popular tool for creating animations, and later for playing audio and video. This was since the late 1990s, yet since 2005 a few factors have contributed to less flash being used in a webpage or even use elements for the page.
+
 [<===Back](README.md)
